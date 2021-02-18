@@ -16,13 +16,11 @@
 	            <div class="btn-group">
 	              <a href="articleDetails/{{ $row->id }}"class="btn btn-sm btn-outline-secondary">Read More</a>
 	            </div>
-	            <!-- <small class="text-muted">9 mins</small> -->
 	          </div>
 	        </div>
 	      </div>
 	    </div>
 	    @endforeach
-
 	</div>
 	{!! $frontArticles->links() !!}
 </div>
